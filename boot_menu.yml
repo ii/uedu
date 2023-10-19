@@ -1,5 +1,5 @@
 ublue_variants:
-  - label: iiamabby/ii-ublue-edu
+  - label: ii/uedu
     ks: /kickstart/ublue-os.ks
     flavors:
-      - label: ii-ublue-edu
+      - label: uedu
