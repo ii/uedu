@@ -4,7 +4,7 @@ name: uedu
 description: A starting point for further customization of uBlue images. Make your own! https://ublue.it/making-your-own/
 
 # the base image to build on top of (FROM) and the version tag to use
-base-image: docker pull ghcr.io/ublue-os/bluefin-dx
+base-image: ghcr.io/ublue-os/bluefin-dx
 image-version: latest # latest is also supported if you want new updates ASAP
 
 # module configuration, executed in order
