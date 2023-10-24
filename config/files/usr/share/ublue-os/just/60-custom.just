@@ -50,7 +50,6 @@ install-games-educational:
 # Install virtualization stack (libvirt/virt-manager/etc)
 install-virtualization:
   rpm-ostree install libvirt-client libvirt-daemon-kvm virt-install virt-manager
-  rpm-ostree install -y java-17-openjdk
 
 # Un-install virtualization stack (libvirt/virt-manager/etc)
 uninstall-virtualization:

@@ -58,7 +58,6 @@ screens:
           description: Core system applications for the GNOME desktop environment.
           default: true
           packages:
-            - Eclipse: org.eclipse.Java
             - Calculator: org.gnome.Calculator
             - Calendar: org.gnome.Calendar
             - Camera: org.gnome.Snapshot
