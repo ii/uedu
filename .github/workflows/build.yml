@@ -152,7 +152,7 @@ jobs:
             RECIPE=${{ matrix.recipe }}
             IMAGE_REGISTRY=${{ steps.registry_case.outputs.lowercase }}
           labels: ${{ steps.meta.outputs.labels }}
-          oci: false
+          oci: true
 
       # Push the image to GHCR (Image Registry)
       - name: Push To GHCR
